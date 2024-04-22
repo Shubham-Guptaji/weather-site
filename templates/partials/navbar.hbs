@@ -1,23 +1,42 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-primary" aria-label="Fourth navbar example">
-    <div class="container">
-        <a class="navbar-brand" href="/">Alcodemy Weather</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav
+  class="navbar navbar-expand-md navbar-dark bg-primary"
+  aria-label="Fourth navbar example"
+>
+  <div class="container">
+    <a class="navbar-brand" href="/">Alcodemy Weather</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarsExample04"
+      aria-controls="navbarsExample04"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="javascript:void(0)">Contact</a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white " href="javascript:void(0)">About</a>
-                </li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white"
+            href="https://lms.alcodemy.tech/contact"
+          >Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="javascript:void(0)">About</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
+<div class="site-info" id="siteInfo">
+<div id="siteLoader" class="loader" width="22" height="22"></div>
+<svg id="siteSuccess" class="siteSuccess" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="22" height="22" fill="lawngreen"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" /></svg>
+<svg id="siteError" class="siteError" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="22" height="22" fill="red"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" /></svg>
+<span id="siteMessage">weather fetched successfully</span>
+</div>
